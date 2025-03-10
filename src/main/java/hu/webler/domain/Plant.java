@@ -17,6 +17,16 @@ public class Plant extends LivingCreature {
     }
 
     @Override
+    public void move(){
+        System.out.println ("Plants don't move");
+    }
+
+    @Override
+    public void sleep() {
+
+    }
+
+    @Override
     public String toString() {
         return "Plant{" +
                 "name='" + super.getName () + '\'' +

@@ -16,7 +16,12 @@ public class Human extends LivingCreature implements HumanActivity{
         System.out.println( "Human is being  fed. Yum yum yum. " );
      }
 
-     @Override
+    @Override
+    public void move() {
+
+    }
+
+    @Override
      public void think() {
         System.out.println( "Human is thinking!" );
      }
@@ -40,6 +45,6 @@ public class Human extends LivingCreature implements HumanActivity{
 
     @Override
     public String toString() {
-        return Human;
+        return "Human";
     }
 }

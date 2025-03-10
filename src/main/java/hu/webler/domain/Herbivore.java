@@ -14,11 +14,9 @@ public class Herbivore extends Animal {
         System.out.println( "Eating plants! -> Herbivore" );
     }
 
-    @Override
-    public void String
 
     @Override
-    public java.lang.String toString() {
+    public String toString() {
         return "Herbivore";
     }
 }
